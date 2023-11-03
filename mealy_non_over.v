@@ -1,4 +1,5 @@
 module mealy(clk_i,rst_i,valid_i,d_i,pattern_o);
+//using one-hot encoding
 //BCCBC 01101
 parameter S_R	 =5'b0_0001;
 parameter S_B	 =5'b0_0010;
